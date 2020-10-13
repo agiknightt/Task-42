@@ -1,0 +1,13 @@
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.exe
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.deps.json
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.runtimeconfig.json
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.runtimeconfig.dev.json
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.dll
+E:\prj\Task-42\Task-42\bin\Debug\netcoreapp3.1\Task-42.pdb
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.csprojAssemblyReference.cache
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.AssemblyInfoInputs.cache
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.AssemblyInfo.cs
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.csproj.CoreCompileInputs.cache
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.dll
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.pdb
+E:\prj\Task-42\Task-42\obj\Debug\netcoreapp3.1\Task-42.genruntimeconfig.cache

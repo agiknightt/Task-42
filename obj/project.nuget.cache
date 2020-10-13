@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KtQChYk+SU7asSGKeK/oWJXNs5CP1gDWEhIvO8F6OP93Kqhr5/Nc7kalquG8diQS/268IBC7oo13+HI3Cd8o+A==",
+  "success": true,
+  "projectFilePath": "E:\\prj\\Task-42\\Task-42\\Task-42.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\agiknight\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
