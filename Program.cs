@@ -9,7 +9,6 @@ namespace Task_42
         static void Main(string[] args)
         {
             bool isExit = true;
-            int topListCount = 3;
             List<Player> players = new List<Player>();
 
             AddPlayers(players);
@@ -21,19 +20,19 @@ namespace Task_42
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
-                        var fillteredTopLelvel = players.OrderByDescending(player => player.Level).ToList();
+                        var fillteredTopLevel = players.OrderByDescending(player => player.Level).Take(3);
 
-                        for (int i = 0; i < topListCount; i++)
+                        foreach (var player in fillteredTopLevel)
                         {
-                            fillteredTopLelvel[i].ShowInfo();
+                            player.ShowInfo();
                         }
                         break;
                     case 2:
-                        var fillteredTopPower = players.OrderByDescending(player => player.Power).ToList();
+                        var fillteredTopPower = players.OrderByDescending(player => player.Power).Take(3);
 
-                        for (int i = 0; i < topListCount; i++)
+                        foreach (var player in fillteredTopPower)
                         {
-                            fillteredTopPower[i].ShowInfo();
+                            player.ShowInfo();
                         }
                         break;
                     case 3:
@@ -73,7 +72,7 @@ namespace Task_42
         }
         public void ShowInfo()
         {
-            Console.WriteLine($"Имя - {Name}\n\nУровень - {Level}\n\nСила - {Power}\n");
+            Console.WriteLine($"Имя - {Name}, Уровень - {Level}, Сила - {Power}\n");
         }
     }
 }
